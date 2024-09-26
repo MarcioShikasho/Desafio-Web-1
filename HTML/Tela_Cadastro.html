@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Condomínio Senai - Cadastro</title>
+    
+    <link rel="stylesheet" href="/CSS/styleCadastro.css">
+</head>
+<body>
+    <header>
+        <h1>Condomínio SENAI - Cadastro de Vagas</h1>
+    
+        <nav>
+            <ul>
+                <li><a href="/HTML/Tela_Cadastro.html" target="_blank" alt="link para a tela de cadastro">Cadastro de Vagas</a></li>
+                <li><a href="/HTML/Tela_Consulta.html" target="_blank" alt="link para a tela de consulta">Consulta de Vagas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Cadastre sua vaga</legend>
+                    <label for="Nome_completo">Nome do Proprietário: </label><br>
+                    <input type="text" name="Nome_completo" id="Nome_completo" placeholder="EX: João"><br>
+
+                    
+                    <label for="Numero_apt">Número do apartamento: </label><br>
+                    <input type="number" name="Numero_apt" id="Numero_apt" placeholder="EX: 70"><br>
+                    
+                    <label for="Bloco_apt">Bloco do apartamento: </label><br>
+                    <input type="text" name="Bloco_apt" id="Bloco_apt" placeholder="EX: A"><br>
+                    
+                    <label for="Placa">Placa do veículo: </label><br>
+                    <input type="text" name="Placa" id="Placa" placeholder="EX: AAA 1A11 ou AAA 1B11"><br>
+                    
+                    <label for="Modelo">Modelo do Veículo: </label><br>
+                    <input type="text" name="Modelo" id="Modelo" placeholder="EX: Carro"><br>
+
+                    <label for="Cor">Cor do veículo: </label><br>
+                    <input type="text" name="Cor" id="Cor" placeholder="EX: Preto"><br>
+
+                    <label for="Numero_vaga">Número da vaga de estacionamento: </label><br>
+                    <input type="number" name="Numero_vaga" id="Numero_vaga" placeholder="EX: 12"><br>
+
+                    <button class="btn-cadastrar" type="submit" onclick="Cadastrar()">Cadastrar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DevMKS. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="/JS/script.JS"></script>
+</body>
+</html>         

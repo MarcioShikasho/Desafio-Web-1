@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Condomínio Senai - Consulta</title>
+
+    <link rel="stylesheet" href="/CSS/styleConsulta.css">
+</head>
+<body>
+    <header>
+        <h1>Condomínio SENAI - Cadastro de Vagas</h1>
+    
+        <nav>
+            <ul>
+                <li><a href="/HTML/Tela_Cadastro.html" target="_blank" alt="link para a tela de cadastro">Cadastro de Vagas</a></li>
+                <li><a href="/HTML/Tela_Consulta.html" target="_blank" alt="link para a tela de consulta">Consulta de Vagas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="exibicao">
+            <form>
+                <div class="Pesquisa">
+                <label for="vaga" class="label-vaga">Vaga de Estacionamento: </label>
+                <input type="number" name="vaga" id="vaga" class="input-pesquisar" placeholder="Digite o número da vaga">
+                <button class="btn-pesquisar">Consultar Vaga</button>
+                <button class="btn-pesquisar">Listar Vagas Disponíveis</button>
+                </div>
+
+                <div class="Resultado">
+                <fieldset>
+                    <label for="Nome_completo">Nome do Proprietário: </label><br>
+                    <input type="text" name="Nome_completo" id="Nome_completo" placeholder="João"><br>
+
+                    
+                    <label for="Numero_apt">Número do apartamento: </label><br>
+                    <input type="number" name="Numero_apt" id="Numero_apt" placeholder="70"><br>
+                    
+                    <label for="Bloco_apt">Bloco do apartamento: </label><br>
+                    <input type="text" name="Bloco_apt" id="Bloco_apt" placeholder="A"><br>
+                    
+                    <label for="Placa">Placa do veículo: </label><br>
+                    <input type="text" name="Placa" id="Placa" placeholder="AAA 1A11"><br>
+                    
+                    <label for="Modelo">Modelo do Veículo: </label><br>
+                    <input type="text" name="Modelo" id="Modelo" placeholder="Carro"><br>
+
+                    <label for="Cor">Cor do veículo: </label><br>
+                    <input type="text" name="Cor" id="Cor" placeholder="Preto"><br>
+
+                    <label for="Numero_vaga">Número da vaga de estacionamento: </label><br>
+                    <input type="number" name="Numero_vaga" id="Numero_vaga" placeholder="12"><br>
+                </fieldset>
+
+                <div class="vagas-resultados">
+                    <p>Vagas Disponíveis:</p>
+                    <div class="vagas-disponiveis">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DevMKS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
